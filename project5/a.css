@@ -1,0 +1,192 @@
+h1, h2, h3, nav, footer, .actions
+{
+    font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+body
+{
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: 100%;
+    background-color: rgb(151, 135, 135);
+    background-image:
+    url(backgroung.png);
+}
+
+
+h2
+{
+    font-size: 1.125rem;
+}
+h3
+{
+    font-size: 1.125em;
+    border-bottom: solid 1pt #ffffff ;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+}
+p
+{
+    font-size: 1em;
+    color:white;
+}
+a:hover
+{
+    background-color: #979774;
+}
+a:visited
+{
+    color: #47B3F7;
+}
+a:link
+{
+    font-weight: bold;
+    color:white;
+}
+
+a[href^="mailto"] {
+    background: url(email1.png) no-repeat;
+    padding-left: 1em;
+}
+a[href^="tel"]
+{
+    background: no-repeat 0 3px;
+    padding-left: 1em;
+}
+
+/* Style for header and navigation */
+
+header
+{
+    background-image: url(backgroung.png);
+    background-repeat: repeat;
+}
+h1
+{
+    padding-left: 6em;
+}
+
+nav#firstMenu
+{
+    background-color:url(backgroung.png);
+    font-size: 0.85em;
+    text-align: right;
+    padding-right: 6em;
+}
+nav#secondaryMenu
+{
+    background-color: url(backgroung.png);
+    font-size: 1em;
+    padding-left: 6em;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline;
+}
+nav
+{
+    padding: 0.50em;
+}
+nav a
+{
+    padding: 0.25em;
+}
+
+
+/* Style for section */
+article>div
+{
+    background-color: url(backgroung.png);
+    text-align: center;
+    margin-top: 1.5em;
+    margin-right: 6em;
+    margin-bottom: 1.5em;
+    margin-left: 6em;
+    
+}
+section
+{
+    background-color: url(backgroung.png);
+    margin-top: 1em;
+    margin-right: 6em;
+    margin-bottom: 1em;
+    margin-left: 6em;
+    border: solid 1pt rgb(0, 0, 0);
+    
+}
+
+article>div img
+{
+    border: solid 1.5px #ffffff;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+section h3
+{
+    color: rgb(255, 255, 255);
+    padding: 0.5em;
+    background-image:url(backgroung.png);
+    background-repeat: repeat;
+}
+section p
+{
+    margin-left: 0.5em;
+}
+section em
+{
+    color: #ffffff;
+}
+
+/*act style */
+div.act ul li
+{
+    list-style: none;
+    display: inline;
+}
+div.act
+{
+    background-color: #000000;
+    font-size: 0.75em;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+div.act a
+{
+    background-color: #6b6661;
+    padding-top: 0.1em;
+    padding-right: 1em;
+    padding-bottom: 0.1em;
+    padding-left: 2em;
+    border: solid 1px #ffffff;
+    border-radius: 4px;
+    margin-right: 0.5em;
+}
+.Edit
+{
+    background: url(edit1.png) no-repeat;
+    background-position: 0.250em 0.150em;
+}
+.Flag
+{
+    background: url(flag.png) no-repeat;
+    background-position: 0.250em 0.150em;
+}
+
+
+/* Style for footer */
+footer
+{
+    background-color:url(backgroung.png);
+    margin-top: 1em;
+    margin-right: 6em;
+    margin-bottom: 1em;
+    margin-left: 6em;
+    padding: 0.5em;
+}
+footer p 
+{
+    color: #6b6661;
+    font-size: 0.875em;
+    
+}
