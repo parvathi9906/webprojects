@@ -1,0 +1,85 @@
+h1, h2, h3, nav, footer, .actions
+{
+    font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+body
+{
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: 100%;
+    background:url(image.jpg) no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+header
+{
+    margin-left: 0rem;
+    background-color: rgba(255, 255, 255, 0);
+    width:18rem;
+    height:6rem;
+    padding:1rem;
+    
+}
+header h2
+{
+    font-size: 2rem;
+    
+}
+header h1
+{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 8rem;
+}
+article
+{
+    background-color:rgba(255, 255, 255, 0);
+    margin-top: 6rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    width: 30rem;
+}
+article p
+{
+    padding-top: 0rem;
+    padding-right: 1rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+article h2
+{
+    background-color:rgba(239, 239, 239, 0);
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+article p#time
+{
+    color: rgba(255, 255, 255, 0);
+    background-color:rgba(0, 0, 0, 0);
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 5rem;
+    font-weight: bold;
+    width: 19rem;
+}
+article footer
+{
+    background-color:#efefef00;
+    padding: 1.5rem  1rem;
+}
+
+a[href^="mailto"]
+{
+    background: url(email.png) no-repeat #efefef00;
+    color:black;
+    font-size: 2rem;
+    padding-left: 1.25rem;
+    border-bottom: dotted 1pt black;
+    text-decoration:none;
+    font:black;
+    
+}
